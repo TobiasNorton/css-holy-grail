@@ -6,4 +6,56 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  background-color: beige;
+}
+
+.main-box {
+  width: 80%;
+  background-color: rgb(117, 182, 239);
+  margin: 3rem auto;
+  border: 5px solid black;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: normal;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.middle {
+  display: flex;
+  background-color: rgb(244, 193, 188);
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+.mid-mid {
+  width: 550px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+}
+
+h3 {
+  text-align: center;
+}
+
+.menu {
+  background-color: blueviolet;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.mid-right {
+  background-color: blueviolet;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+footer {
+  font-size: 72px;
+  text-align: center;
+  margin: 1rem auto;
 }
